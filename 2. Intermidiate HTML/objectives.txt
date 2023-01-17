@@ -2,3 +2,6 @@
 2. Excercise on tables
 3. HTML Forms
 4. Excercise on Forms
+
+NOTES: When dealing with forms the name attribute is like a variable which will hold a value
+While values are just what you input or select in your forms
