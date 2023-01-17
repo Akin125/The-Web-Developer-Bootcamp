@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Forms</title>
+</head>
+<body>
+
+    <h1>Login</h1>
+    <!-- action - where the form sends the data to -->
+    <!-- method what HTTP request (get/post)  -->
+
+    <form action="#" method="get">
+
+        <!-- text input -->
+        <label for="Username">Username:</label>
+        <input type="text" name="Username" id="Username" placeholder="Username" required maxlength="8">
+
+        <!-- password input -->
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password" placeholder="password" required maxlength="10">
+        <br>
+        <br>
+        <!-- radio button input (only one choice) -->
+        <span>Do you prefer dogs or cats?</span>
+        <label for="dogs">Dogs:</label>
+        <input type="radio" id="dogs" name="petchoice" value="DOGS" required>
+
+        <label for="cats">Cats:</label>
+        <input type="radio" id="cats" name="petchoice" value="CATS">
+
+        <br>
+        <br>
+        
+
+        <!-- Select tag  -->
+        <label for="mood">How are you feeling:</label>
+        <select name="mood" id="mood">
+            <option value="happy">😊</option>
+            <option value="neutral">😑</option>
+            <option value="sad">😔</option>
+        </select>
+
+        <br>
+        <br>
+        
+
+        <!-- Text area tag -->
+        <label for="comments">Your comments:</label>
+        <br>
+        <textarea name="yourComments" id="comments" cols="70" rows="5" required placeholder="your comments....." style="font-family: Arial, Helvetica, sans-serif;"></textarea>
+
+        <br>
+        <br>
+     
+        <!-- Submit input -->
+        <input type="submit">
+    </form>
+
+    <!-- Alternative Syntax -->
+    <!-- <h1>Alternative Syntax</h1>
+
+    <form action="#" method="post">
+
+        <label>Username:  <input type="text" name="Username" id="Username" placeholder="Username" required maxlength="8"></label>
+        
+        <label> Password: <input type="password" name="Password" id="Password" placeholder="password" required maxlength="10"></label>
+
+        <input type="submit">
+    </form> -->
+
+</body>
+</html>
