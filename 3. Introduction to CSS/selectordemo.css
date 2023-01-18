@@ -1,0 +1,44 @@
+/* elements */
+li{
+
+}
+
+/* class */
+.hello{
+
+}
+
+/* id */
+£name{
+
+}
+
+/* star - for all the elements in the html */
+
+*{
+
+}
+
+/* Descendant selector - a tag in an li*/
+
+
+li a{
+
+}
+
+/* adjacent Selector - it allows us to select element not nested but comes after an element */
+h4 + li{
+
+}
+
+/* attributes selector - select elements based on attributes*/
+
+a[href = "https://www.google.com"]{
+
+}
+
+/* nth of types - takes a number and selects every nth of a tag */
+
+ul:nth-of-type(3){
+    
+}
