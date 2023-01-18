@@ -1,0 +1,24 @@
+1. Define the "general rules"  of CSS
+2. Correctly include CSS in your HTML files 
+3. Select elements by tag names, class, and ID
+4. Style Elements with basic properties like color and background
+5. Use the chrome CSS inspector to debug HTML and CSS
+
+Exercise: CSS selector scavenger hunt
+
+THE GENERAL RULE
+
+selector {
+    property: value;
+    anotherProprty: value;
+}
+
+COLOURS
+Hi Everyone,
+
+The following lecture, "CSS Colors" has a segment where the colors flash across the screen rather quickly.
+
+If you're prone to photosensitive epilepsy (PSE) then please avoid watching the screen from the 1 minute and 7 second mark until the 1 minute and 54 second mark in the video.
+
+thanks,
+Ian
