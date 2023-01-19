@@ -8,6 +8,7 @@ div.container{
     margin: auto;
     border: 20px solid #bdc3c7;
     margin-top: 20px;
+    background-color: #ffffff;
 }
 
 h2{
@@ -40,4 +41,8 @@ p.first-para{
 
 hr{
     margin: 20px;
+}
+
+body{
+    background: #3498bd;
 }
