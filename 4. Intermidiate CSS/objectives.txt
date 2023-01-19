@@ -1,0 +1,7 @@
+1. Fonts in css (text property)
+2. External fonts
+3. Box model
+projects:
+Tic tac toe board
+Image Portfolio gallery
+HTML and CSS blog
