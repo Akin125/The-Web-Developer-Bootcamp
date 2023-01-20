@@ -1,0 +1,20 @@
+Flexbox
+It is a more better way to layout and distribute space among items in a container even if the screen is unknown(responsive)
+
+FOR COLUMN MAIN AXIS IS FROM TOP TO BUTTOM, CROSS AXIS IS LEFT TO RIGHT
+FOR ROW MAIN AXIS IS FROM LEFT TO RIGHT, CROSS AXIS IS FROM TOP TO BUTTOM
+
+CONTAINER PROPERTIES
+.Flex-direction - row, row-reverse, column, column-reverse
+.Justify-content (defines how space inside of flex container between items along the main axis)- flex-end, center, space-between, space-around
+
+.Flex-wrap(single line or mutiple line) - no wrap(default), wrap, wrap-reverse //it has effect on the width  of the flex item//
+.Align-items
+.Align contents
+
+FLEX ITEM PROPERTIES
+.Order
+.Flex
+.Flex-grow
+.Flex-shrink
+.Align-self
