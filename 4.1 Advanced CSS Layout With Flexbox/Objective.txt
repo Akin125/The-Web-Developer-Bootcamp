@@ -9,8 +9,8 @@ CONTAINER PROPERTIES
 .Justify-content (defines how space inside of flex container between items along the main axis)- flex-end, center, space-between, space-around
 
 .Flex-wrap(single line or mutiple line) - no wrap(default), wrap, wrap-reverse //it has effect on the width  of the flex item//
-.Align-items
-.Align contents
+.Align-items (defines how space inside of flex container between items along the cross axis)
+.Align-contents (defines how space is allocated between rows in flex container along the cross axis)
 
 FLEX ITEM PROPERTIES
 .Order
