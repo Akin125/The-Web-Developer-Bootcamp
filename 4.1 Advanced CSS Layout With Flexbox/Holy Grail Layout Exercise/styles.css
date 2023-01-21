@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;800&family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: raleway;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 15px;
+    /* background: rgb(138, 57, 57); */
+    max-width: 100%;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container{
+    display: flex;
+    margin: 1px;
+    flex-wrap: wrap;
+    flex-basis: 800px;
+}
+
+main{
+    background: rgb(99, 141, 232);
+    height: 800px;
+    border-radius: 5px;
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+
+.ads-1{
+    order: 5;
+}
+
+.ads-1, nav{
+    background: rgb(99, 232, 141);
+    height: 800px;
+    border-radius: 5px;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.ads-1, main{
+    margin: 1px;
+}
+
+nav{
+    order: -2;
+    background:#000077
+}
+
+header, footer{
+    border-radius: 5px;
+    background: #228820;
+    min-height: 10vh;
+} 
+
+header{
+   display: flex;
+   justify-content: space-between;
+}
+
+a{  
+    text-transform: none;
+    text-decoration: none;
+    z-index: 111;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 650px){
+    .container{
+        flex-direction: column;
+        flex-basis: 500px;
+    }
+
+    main{
+        order: -3;
+        flex-grow: 2;
+        flex-shrink: 1;
+    }
+
+    .ads-1, nav{
+        flex-grow: 1;
+        flex-shrink: 5;
+    }
+}
