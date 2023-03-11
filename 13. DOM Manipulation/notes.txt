@@ -1,0 +1,2 @@
+DOM - Document Object Model
+It is the interface between your JavaScript and Html+css
