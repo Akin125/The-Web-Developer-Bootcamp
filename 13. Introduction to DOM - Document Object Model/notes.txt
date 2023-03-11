@@ -2,3 +2,14 @@ DOM - Document Object Model
 It is the interface between your JavaScript and Html+css
 
 THE PROCESS => SELECT and MANIPULATE
+
+DOM SELECTION
+Methods
+The document comes with a bunch of methods for selecting elements.
+We're going to learn about the following 5:
+
+document.getElementById()
+document.getElementsByClassName()
+document.getElementsByTagName()
+document.querySelector()
+document.querySelectorAll()
